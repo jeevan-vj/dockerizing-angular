@@ -1,0 +1,3 @@
+FROM jeevan90/tiny-node-http-server
+WORKDIR /app
+COPY ./dist public
